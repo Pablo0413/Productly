@@ -1,0 +1,65 @@
+/* Reset css */
+
+body, html, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* General styles */
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header {
+    padding: 15px 120px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+}
+
+
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.item_link {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.item_link:hover {
+    color: #FF9900;
+}
+
+.btn {
+
+}

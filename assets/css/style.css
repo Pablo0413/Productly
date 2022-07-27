@@ -20,8 +20,13 @@ a {
 body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+}
 
+.header_wrapp {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
 }
 
 .header {
@@ -30,7 +35,11 @@ body {
     z-index: 1;
     position: fixed;
     background-color: #FFFFFF;
+    max-width: 1200px;
+    display: inline-block;
+    align-items: center;
 }
+
 
 .header_container {
     display: flex;
@@ -39,9 +48,6 @@ body {
 
 }
 
-.logo {
-    display: flex;
-}
 
 
 
@@ -54,12 +60,30 @@ body {
 .item_link {
     font-size: 16px;
     line-height: 28px;
+    color:  #2F281E;
 }
 
 .item_link:hover {
     color: #FF9900;
 }
 
-.btn {
 
+.btn {
+    background-color: #FF9900;
+    padding: 13px 25px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: all 0.5s ease;
 }
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #2F281E;
+    border: 1px solid #BCD0E5;
+    transition: all 0.5s ease;
+}
+

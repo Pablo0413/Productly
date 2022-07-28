@@ -1,0 +1,53 @@
+/*Normalize*/
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #544837;
+}
+
+/*Start section 3*/
+.section-three {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-size: 36px;
+    margin: 0 0 30px;
+}
+
+.title {
+    color: #2F281E;
+}
+
+.text-container {
+    width: 42%;
+}
+
+.title-container {
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 50%;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.element-list {
+    padding-top: 10px;
+}
+/*End section 3*/

@@ -21,6 +21,10 @@ a {
     color: inherit;
 }
 
+body* {
+    box-sizing: border-box;
+}
+
 /* General styles */
 
 body, .footer a {
@@ -81,6 +85,110 @@ img {
 
 
 /* SECOND SECTION ----------------------------------------------------------------*/
+
+.features {
+    color: #2F281E;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.features_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+
+.features_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F281E;
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto 30px;
+}
+
+.card_content {
+    width: 100%;
+    max-width: 270px;
+}
+
+.card_logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #7752BE;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.card_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card_text_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+
+.card_text_simple {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.wave {
+    background-color: #FAB005;
+}
+
+.heart {
+    background-color: #F03E3D;
+}
+
+.hours {
+    background-color: #4DADF7;
+}
+
+.features_btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #FF9900;
+}
+
+.large {
+    text-align: center;
+}
+
+.card_bg {
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    z-index: -1;
+}
+
+
 /* /SECOND SECTION ----------------------------------------------------------------*/
 
 /* THIRD SECTION ----------------------------------------------------------------*/

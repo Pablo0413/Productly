@@ -40,7 +40,7 @@ body,
 
 section,
 .footer_wrapper {
-    max-width: 80%;
+    /* max-width: 80%; */
     width: 100%;
     margin: 0 auto;
 }
@@ -138,6 +138,13 @@ padding-bottom: 114px;
     text-align: left;
 }
 
+.title {
+    color: #2F281E;
+    font-size: 36px;
+    line-height: 44px;
+
+}
+
 .text_about {
     font-size: 18px;
     line-height: 28px;
@@ -148,7 +155,7 @@ padding-bottom: 114px;
 
 .features {
     color: #2F281E;
-    padding-bottom: 70px;
+    margin-bottom: 155px;
     position: relative;
 }
 
@@ -238,6 +245,7 @@ padding-bottom: 114px;
     color: #FFFFFF;
     text-align: center;
     background-color: #FF9900;
+
 }
 
 .large {
@@ -258,8 +266,7 @@ padding-bottom: 114px;
 
 .section-three {
     display: flex;
-    width: 85%;
-    margin: 0 auto;
+    margin-bottom: 90px;
     justify-content: space-between;
 }
 
@@ -280,10 +287,6 @@ padding-bottom: 114px;
     padding-bottom: 10px;
 }
 
-.container {
-    width: 50%;
-}
-
 .list {
     list-style: none;
     padding: 0;
@@ -297,8 +300,6 @@ padding-bottom: 114px;
 
     /* FIVE SECTION ----------------------------------------------------------------*/
     .five_section_wrapper {
-        padding-top: 90px;
-
         padding-bottom: 100px;
         display: flex;
     }
@@ -313,11 +314,12 @@ padding-bottom: 114px;
     /* S4 Marina */
 
     .section_four {
-        margin: 0 auto;
+        margin-bottom: 90px;
         display: flex;
         justify-content: space-between;
         width: 100%;
         max-width: 1200px;
+        gap: 95px;
     }
 
     .image {
@@ -343,7 +345,6 @@ padding-bottom: 114px;
     .title_s4 {
         font-family: 'Montserrat';
         font-size: 36px;
-        color: #544837;
         font-weight: 700;
         line-height: 44px;
         margin-bottom: 20px;
@@ -438,8 +439,8 @@ padding-bottom: 114px;
         justify-content: space-between;
     }
 
-    .footer_columb {
-        max-width: 25%;
+    .footer_column {
+        max-width: 45%;
     }
 
     .footer_items {
@@ -454,7 +455,7 @@ padding-bottom: 114px;
 
     /*End section 3*/
     .ftr_btn_wrp {
-        max-width: 20%;
+        max-width: 29%;
         padding-right: 105px;
     }
 
@@ -470,6 +471,15 @@ padding-bottom: 114px;
         font-size: 20px;
         line-height: 30px;
         padding-bottom: 25px;
+        color: #2F281E;
+    }
+
+    .footer_link {
+        line-height: 26px;
+    }
+
+    .footer_link:last-child {
+        padding-bottom: 0;
     }
 
     .footer a {
@@ -485,13 +495,16 @@ padding-bottom: 114px;
         border: none;
         border-radius: 2pt;
         box-shadow: 0 0 0 1pt #BCD0E5;
-        ;
+        color: #BCD0E5;
+        padding: 20px;
         outline: none;
         transition: .1s;
     }
 
     .input_ftr::placeholder {
-        padding-left: 10px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #BCD0E5;
     }
 
     /* /input_footer */
@@ -503,6 +516,7 @@ padding-bottom: 114px;
         background: #FF9900;
         border: none;
         border-radius: 6px;
+        cursor: pointer;
     }
 
     .button_ftr p {

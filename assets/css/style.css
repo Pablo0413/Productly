@@ -51,7 +51,7 @@ img {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px 100px;
 }
 
 /* HEADER Section */
@@ -68,7 +68,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 0 15px;
 
 }
 
@@ -117,12 +117,13 @@ img {
 
 .thinking_section {
     padding-top: 155px;
-    margin-bottom: 115px;
 
 }
 
 .thinking_block {
     display: flex;
+    justify-content: space-between;
+    gap: 17px;
 }
 
 .started {
@@ -164,7 +165,7 @@ img {
 
 .features {
     color: #2F281E;
-    margin-bottom: 155px;
+    padding-bottom: 155px;
     position: relative;
 }
 
@@ -275,7 +276,6 @@ img {
 
 .section-three {
     display: flex;
-    margin-bottom: 90px;
     justify-content: space-between;
 }
 
@@ -317,7 +317,6 @@ img {
 /* S4 Marina */
 
 .section_four {
-    margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
     width: 100%;

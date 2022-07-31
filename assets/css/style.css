@@ -286,7 +286,8 @@ img {
 }
 
 .text-container {
-    width: 42%;
+    width: 50%;
+    padding-right: 75px;
 }
 
 .title-container {
@@ -298,6 +299,9 @@ img {
     padding: 0;
 }
 
+.section-three-img {
+    width: 100%;
+}
 /* FIVE SECTION ----------------------------------------------------------------*/
 .five_section_wrapper {
     padding-bottom: 100px;

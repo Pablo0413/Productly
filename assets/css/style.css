@@ -109,8 +109,11 @@ section,
 }
 
 .btn_container {
+    display: flex;
+    justify-content: space-between;
     column-gap: 30px;
 }
+
 
 .btn:hover {
     background: #fff0;
@@ -389,6 +392,7 @@ section,
     padding: 13px 25px;
     border-radius: 6px;
     color: #FFFFFF;
+    
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
